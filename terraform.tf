@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "terraformeksproject"
+        bucket = "your_s3_buck_name_here"
         key    = "state.tfstate"
     }
 }
